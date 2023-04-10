@@ -1,0 +1,100 @@
+body{
+    background:  whitesmoke;
+
+}
+
+img{
+    height:  450px ;
+    width: 100%;
+}
+
+#header{
+    text-align: center;
+    background: linear-gradient(green,white,white,red);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-shadow: 4px 4px 4px gray;
+    margin: 0;
+}
+
+#header{
+    color:#502211;
+}
+
+#continer{    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+
+    padding: 10px 100px;
+    background: wheat ;
+  }
+  
+  #continer1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px 350px;
+    background: wheat ;
+    height: 300px;
+  }
+  
+  .continer{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 30px;
+    color: #502211;
+    text-shadow:  3px 3px 4px gray;
+    background: wheat;
+  }
+
+.img {
+    width: 200px;
+    height: 200px;
+    border: 3px solid red;
+    border-radius: 150px;
+    padding: 2px;
+}
+
+h2,h1,h3,p{
+    text-align:  center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+p{
+    margin-right: 20px;
+}
+
+#persepolis-gift:hover{
+    background-image: url(video/persepolis.mp4)
+}
+
+#bottom{
+    width:120px;
+    height: 150px;
+    margin:  20px ;
+    border-radius: 10px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    color: wheat;
+    margin: 50px auto;
+    width: 400px;
+    height: 200px;
+    border: 4px solid #8891A4;
+    border-radius: 10px;
+    background-image: url("images/cover.jpg");
+    background-size: cover;
+    background: radial-gradient(circle,#8B592E,#E4B04B,#60372A) ;
+}
+
+#name{
+    text-align: center;
+    text-shadow: 2px 2px 3px black
+}
+
